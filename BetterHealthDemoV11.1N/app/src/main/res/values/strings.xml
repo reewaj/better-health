@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">BetterHealthDemo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="reminder">
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>2 hour before</item>
+        <item>3 hour before</item>
+        <item>5 hour before</item>
+        <item>1 day before</item>
+    </string-array>
+
+    <string-array name="interval">
+        <item>once a day</item>
+        <item>twice a day</item>
+        <item>thrice a day</item>
+        <item>four times a day</item>
+        <item>five times a day</item>
+    </string-array>
+
+    <string-array name="durations">
+        <item>Forever</item>
+        <item>Set end date</item>
+        <item>Set number of days</item>
+    </string-array>
+
+    <string-array name="instructions">
+        <item>No Instructions</item>
+        <item>Before Meal</item>
+        <item>After Meal</item>
+        <item>While having meal</item>
+    </string-array>
+    <string name="title_activity_list_appointment">ListActivityAppointment</string>
+
+</resources>

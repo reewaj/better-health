@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+       <!-- <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/photo_view1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:src="@drawable/banned1" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:src="@drawable/banned2" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:src="@drawable/banned3" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:src="@drawable/banned4" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:src="@drawable/banned5" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:src="@drawable/banned6" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:src="@drawable/banned7" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:src="@drawable/banned8" />
+
+          <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:src="@drawable/banned9" />
+
+    </LinearLayout>
+
+</ScrollView>

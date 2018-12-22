@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reewaj.betterhealthdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BetterHealthDemo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Activity.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Activity.MainActivity"
+            android:label="BetterHealthDemo"
+            android:theme="@style/AppTheme.NoActionBar">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Activity.Appointment"
+            android:label="Add Appointment"
+            android:theme="@style/AppTheme">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>-->
+        </activity>
+
+        <!--<activity
+            android:screenOrientation="portrait"
+            android:name=".Activity.Add_Stock"
+            android:label="Add Stock"
+            android:theme="@style/AppTheme">
+            &lt;!&ndash;<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>&ndash;&gt;
+        </activity>-->
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Activity.AddMedicine"
+            android:label="Add Medicine"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Activity.ViewAppointmentActivity"
+            android:label="ViewAppointment"
+            android:theme="@style/AppTheme">
+
+          <!--  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+-->
+        </activity>
+
+    <activity
+        android:screenOrientation="portrait"
+        android:name=".Activity.MeasurementActivity"
+        android:label="Measurement"
+        android:theme="@style/AppTheme">
+         <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+             <category android:name="android.intent.category.DEFAULT" />
+         </intent-filter>
+    </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Activity.StandardRates"
+            android:label="Standard Rates"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Activity.BannedDrugs"
+            android:label="Banned Drugs"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.UpdateMedicineList"/>
+        <activity android:name=".Activity.AddStock" android:screenOrientation="portrait"/>
+        <receiver android:name=".Activity.Receiver"></receiver>
+
+    </application>
+
+</manifest>
